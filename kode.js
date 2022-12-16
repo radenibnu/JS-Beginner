@@ -9,8 +9,10 @@
 
 // console.log(fee);
 
-buah = prompt("berapa harga buahnya ?");
-persen = prompt("berapa persen feenya ? %") / 100;
-total = buah * persen;
+hargaBuah = Number(prompt("berapa harga buahnya ?"));
+fee = Number(prompt("berapa persen feenya ? %")) / 100;
+fee = hargaBuah * fee;
+total = hargaBuah + fee;
 
-console.log(total);
+console.log(" Total tip = ", fee);
+console.log("Harga = ", total);
