@@ -106,3 +106,5 @@ const sumArrow = (a,b) => {
 const sumArrow2 = (a,b) => a+b
 
 console.log(sumArrow2(50, 10))
+
+//you can do it, just to be pation
